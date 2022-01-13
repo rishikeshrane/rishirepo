@@ -9,7 +9,7 @@ import java.util.function.Function;
  * @author Rishikesh
  *
  */
-public class Test {
+public class FunctionTest {
 
 	/**
 	 * @param args
