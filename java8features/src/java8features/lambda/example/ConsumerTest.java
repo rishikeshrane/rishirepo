@@ -17,7 +17,7 @@ public class ConsumerTest {
 	public static void main(String[] args) {
 		Consumer<String> consumer = (name) -> {System.out.println("Hi " + name);};
 		Consumer<String> consumer1 = (name) -> System.out.println("Hello " + name);
-		Consumer<String> consumer2 = name -> {System.out.println("How are you " + name);};
+		Consumer<String> consumer2 = (name -> {System.out.println("How are you " + name);});
 		Consumer<String> consumer3 = name -> System.out.println("Good Day " + name);
 		Consumer<String> consumer4 = System.out::println; //method reference
 		
