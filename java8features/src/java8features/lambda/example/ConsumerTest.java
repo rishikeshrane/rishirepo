@@ -23,8 +23,8 @@ public class ConsumerTest {
 		
 		consumer.accept("Rishikesh");
 		consumer1.accept("Rishikesh");
-		consumer2.andThen(consumer).accept("Rishikesh");
-		consumer3.accept("Rishikesh");
+		consumer2.accept("Rishikesh");
+		consumer3.andThen(consumer2).accept("?");
 		consumer4.accept("Rishikesh");
 	}
 
