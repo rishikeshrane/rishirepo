@@ -29,7 +29,12 @@ public class TreeTest {
 		map.put(3, "Three");
 		map.put(4, "Four");
 		
+		//with class method
 		map.forEach(PrintMap::println);
+		
+		// with instance method
+		PrintMap pm = new PrintMap();
+		map.forEach(pm::print);
 		
 		set.add(1);
 		set.add(2);
@@ -49,5 +54,10 @@ public class TreeTest {
 class PrintMap {
 	public static void println(Integer a, String s) {
 		System.out.println("key :" + a + " Value :" + s);
+	}
+	
+
+	public void print(Integer a, String s) {
+		System.out.println("\nkey :" + a + " Value :" + s);
 	}
 }
