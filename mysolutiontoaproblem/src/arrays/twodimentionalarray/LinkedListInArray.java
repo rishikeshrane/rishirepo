@@ -22,7 +22,8 @@ public class LinkedListInArray {
 	public static void main(String[] args) {
 
 		int a[] = {1,4,-1,3,2};
-		System.out.println(findLengthOfLinkedList(a));
+		int []array = {2,-1,1,0,0,0};
+		System.out.println(findLengthOfLinkedList(array));
 	}
 	/**
 	 * 
