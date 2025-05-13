@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sorting;
+package rishi.sorting.example;
 
 import java.util.Arrays;
 
