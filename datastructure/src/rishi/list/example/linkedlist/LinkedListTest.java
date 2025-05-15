@@ -23,6 +23,8 @@ public class LinkedListTest {
 		list.add(5);
 		
 		list.stream().filter(p-> p%2==0).map(i->i*2).forEach(s->System.out.println(s));
+		
+		
 	}
 
 }
